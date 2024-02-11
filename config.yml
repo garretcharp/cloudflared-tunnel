@@ -1,4 +1,6 @@
 ingress:
   - hostname: railway-tunnel.garretcharp.com
     service: http://server.railway.internal:3000
+  - hostname: railway-prom.garretcharp.com
+    service: http://railway-prometheus.railway.internal:9090
   - service: http_status:404
