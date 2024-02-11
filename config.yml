@@ -1,0 +1,4 @@
+ingress:
+  - hostname: railway-tunnel.garretcharp.com
+    service: http://server.railway.internal:3000
+  - service: http_status:404
